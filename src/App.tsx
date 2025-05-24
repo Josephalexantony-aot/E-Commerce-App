@@ -23,7 +23,7 @@ function App() {
               <Header />
               <main className="flex-grow">
                 <Routes>
-                  <Route path="/" element={<HomePage />} />
+                  <Route path="/E-Commerce-App" element={<HomePage />} />
                   <Route path="/products" element={<ProductsPage />} />
                   <Route path="/products/:id" element={<ProductDetailPage />} />
                   <Route path="/cart" element={<CartPage />} />

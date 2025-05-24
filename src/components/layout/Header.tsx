@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link to="/E-Commerce-App" className="text-gray-700 hover:text-blue-600 transition-colors">
               Home
             </Link>
             <Link to="/products" className="text-gray-700 hover:text-blue-600 transition-colors">
@@ -102,7 +102,7 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white shadow-lg animate-fadeIn">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
-              <Link to="/" className="text-gray-700 py-2 hover:text-blue-600 transition-colors">
+              <Link to="/E-Commerce-App" className="text-gray-700 py-2 hover:text-blue-600 transition-colors">
                 Home
               </Link>
               <Link to="/products" className="text-gray-700 py-2 hover:text-blue-600 transition-colors">
